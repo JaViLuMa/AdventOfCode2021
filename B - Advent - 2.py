@@ -1,5 +1,5 @@
 def main():
-  with open('D - inputs.txt') as f:
+  with open('B - inputs.txt') as f:
     lines = f.read().splitlines()
 
 # ------------------- 1 ------------------- #

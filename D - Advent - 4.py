@@ -63,7 +63,7 @@ def part2(picks, boards):
 
 
 def main():
-  with open('F - inputs.txt') as f:
+  with open('D - inputs.txt') as f:
     picks = list(map(int, f.readline().split(',')))
 
     lines = f.read().splitlines()[1:]

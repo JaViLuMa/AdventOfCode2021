@@ -1,5 +1,5 @@
 def main():
-  with open('C - inputs.txt') as f:
+  with open('A - inputs.txt') as f:
     lines = list(map(int, f.read().splitlines()))
 
 # ------------------- 1 ------------------- #

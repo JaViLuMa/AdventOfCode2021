@@ -50,7 +50,7 @@ def part2(lines):
 
 
 def main():
-  with open('G - inputs.txt') as f:
+  with open('E - inputs.txt') as f:
     lines = f.read().splitlines()
 
   lines = [lines[x].split(' -> ') for x in range(len(lines))]
