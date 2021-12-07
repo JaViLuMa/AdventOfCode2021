@@ -6,11 +6,8 @@ def part1(crabs):
 
   total = 0
 
-  for x in range(len(crabs)):
-    if crabs[x] >= median:
-      total += crabs[x] - median
-    else:
-      total += median - crabs[x]
+  for x in crabs:
+    total += abs(x - median)
 
   return int(total)
 
