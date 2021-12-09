@@ -76,7 +76,9 @@ def part2(lines):
 
           basinSize += 1
 
-          for (adjX, adjY) in [(x - 1, y), (x + 1, y), (x, y - 1), (x, y + 1)]:
+          moves = [(x - 1, y), (x + 1, y), (x, y - 1), (x, y + 1)]
+
+          for (adjX, adjY) in moves:
             if adjX < 0 or adjX >= len(lines) or adjY < 0 or adjY >= len(lines[x]):
               continue
             else:
