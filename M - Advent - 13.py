@@ -168,7 +168,7 @@ def main():
     maxY = max(maxY, lines[0][y][1])
 
   print(f'PART 1 - {part1(lines, maxX, maxY)}')
-  print(f'PART 2 - {part2(lines, maxX, maxY)}')
+  part2(lines, maxX, maxY)
 
 
 if __name__ == '__main__':
